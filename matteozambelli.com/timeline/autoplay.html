@@ -1,0 +1,95 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Made with ❤ by Jorge Epuñan - @csslab">
+	
+	<title>jQuery Timeline 0.9.54 - Dando vida al tiempo</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/jquery.timelinr-0.9.54.js"></script>
+	<script> 
+		$(function(){
+			$().timelinr({
+				autoPlay: 'true',
+				autoPlayDirection: 'forward'
+			})
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div id="timeline">
+		<ul id="dates">
+			<li><a href="#7-2010">7/2010</a></li>
+			<li><a href="#9-2010">9/2010</a></li>
+			<li><a href="#2011">2011</a></li>
+			<li><a href="#2013">2013</a></li>
+			<li><a href="#2014">1/2014</a></li>
+			<li><a href="#1-2015">1/2015</a></li>
+			<li><a href="#3.0-2015">3/2015</a></li>
+			<li><a href="#4-2015">4/2015</a></li>
+			
+			
+		</ul>
+		<ul id="issues">
+			<li id="7-2010">
+				<img src="images/logo_Natta.png" width="256" height="256" />
+				<h1>Luglio 2010</h1>
+				<p>Diploma Liceo scientifico tecnologico - presso I.S.I.S. Giulio Natta (Bergamo)</br> </br>tesi: La memoria</br></br>potete visualizzare la mia tesi qui: <a href="http://memoriates.altervista.org/" target="_parent"  class="blank">memoriates</a></p>
+			</li>
+			<li id="9-2010">
+				<img src="images/unibg.png" width="256" height="256" />
+				<h1>Settembre 2010</h1>
+				<p>iscrizione al corso di laurea in Ingegneria Informatica </br> <i>Università degli studi di Bergamo</i></p>
+			</li>
+			<li id="2011">
+				<img src="images/wheelup.png" width="256" height="256" />
+				<h1>da Luglio 2011 ad oggi</h1>
+				<p>Inizio a lavorare presso Wheelup come commesso, </br>negozio di abbigliamento e accessori per motociclisti </p>
+			</li>
+			<li id="2013">
+				<img src="images/unibg.png" width="256" height="256" />
+				<h1>18 Luglio 2013</h1>
+				<p>Laurea triennale in Ingegneria Informatica - Università degli Studi di Bergamo</br>
+                   Tesi: Progetto e sviluppo di un videogioco basato sulla penalizzazione per il trattamento dell’ambliopia.
+                </p>
+			</li>
+			<li id="2014">
+				<img src="images/digishox.png" width="256" height="256" />
+				<h1>da Gennaio 2014 a Giugno 2014</h1>
+				<p>ho sviluppato, con altri due studenti, un’applicazione Android chiamata Digishox. Il sistema digishox permette la regolazione dello smorzamento di entrambe le sospensioni della motocicletta e del precarico della sospensione posteriore tramite un apposito selettore a manubrio. Inoltre, l’utente può definire le proprie tarature di smorzamento e precarico mediante un’applicazione.</p>
+			</li>
+			<li id="1-2015">
+				<img src="images/sql2xls.png" width="256" height="256" />
+				<h1>da Gennaio 2015 ad Aprile 2015</h1>
+				<p>from SQL to XLS</p>
+			</li>
+			<li id="3.0-2015">
+				<img src="images/unibg.png" width="256" height="256" />
+				<h1>da Marzo 2015 a Luglio 2015</h1>
+				<p>Ruolo: Tutor universitario</br>
+				   presso: <i> Università degli studi di Bergamo</i></br>
+                   Descrizione: stesura delle esercitazioni del corso di Testing e verifica del software, docente: Prof. Angelo Gargantini.
+                   </p>
+			</li>
+			<li id="4-2015">
+				<img src="images/ico.png" width="256" height="256" />
+				<h1>Aprile 2015</h1>
+				<p>release dell'app Android <a href="https://play.google.com/store/apps/details?id=it.unibg.p3d4amb.carracingcarboard&hl=it">Car Racing Cardboard</a> (progetto di tesi magistrale)</br> per tutte le info visita il sito dell'app: <a href="http://3d4amb.unibg.it/3dcar/cardboard%20site/">clicca qui</a></p>
+			</li>
+			
+			
+		</ul>
+		<div id="grad_left"></div>
+		<div id="grad_right"></div>
+		<a href="#" id="next">+</a>
+		<a href="#" id="prev">-</a>
+	</div>
+
+	
+
+</body>
+</html>
